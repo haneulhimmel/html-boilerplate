@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Sign Up</h1>
+    <button class = "primary" onclick="goHome()">Home</button>
+    <button class = "primary" onclick="goAbout()">About This Project</button>
+
+    <div class="wrapper">
+        <div class="box">
+            <form action="actionsPage.php" method="POST">
+                <label for="">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="">Password:  </label>
+                <input type="password" id="myPassword" name="myPassword"><br><br>
+                <input type="checkbox" onclick="displayText()">Show Password <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    <div>
+        <script src="index.js"></script>
+</body>
+</html>
